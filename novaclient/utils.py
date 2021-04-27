@@ -12,7 +12,7 @@
 #    under the License.
 
 import contextlib
-import os
+import os,sys
 import re
 import textwrap
 import time
