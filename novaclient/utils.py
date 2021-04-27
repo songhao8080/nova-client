@@ -33,6 +33,7 @@ VALID_KEY_REGEX = re.compile(r"[\w\.\- :]+$", re.UNICODE)
 def env(*args, **kwargs):
     """Returns the first environment variable set.
     test12
+    test12
     If all are empty, defaults to '' or keyword arg `default`.
     """
     for arg in args:
